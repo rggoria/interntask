@@ -45,6 +45,7 @@ class MainController extends Controller
             'understanding-the-different-types-of-afp-checks' => view('pages.blog.blog_107'),
             'how-do-i-check-my-criminal-background' => view('pages.blog.blog_108'),
             'background-screening-companies' => view('pages.blog.blog_109'),
+            'how-to-do-a-background-check-on-a-person' => view('pages.blog.blog_100'),
             // default => back(),
             default => abort(404),
         };
